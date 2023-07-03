@@ -7,7 +7,7 @@ import { HiShoppingCart } from "react-icons/hi";
 
 function Header() {
   return (
-    <div className="flex items-center justify-between gap-6 py-4">
+    <div className=" mx-auto flex max-w-[1370px] items-center justify-between gap-6 py-4">
       <div>
         <img src={LogoSVG} alt="logo" className="object-contain" />
       </div>
