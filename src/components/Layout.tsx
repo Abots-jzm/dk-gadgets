@@ -3,10 +3,10 @@ import Header from "./Header";
 
 function Layout() {
   return (
-    <>
+    <div className="mx-auto max-w-[1370px]">
       <Header />
       <Outlet />
-    </>
+    </div>
   );
 }
 
